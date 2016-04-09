@@ -1,0 +1,22 @@
+{
+    "name": "how-old-server",
+    "version": "0.0.1",
+    "description": "Dumb service for birthdays",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jacobhak/how-old-server.git"
+    },
+    "dependencies": {
+        "express": "4.12.1",
+        "http-status": "^0.1.8"
+    },
+    "devDependencies": {
+        "mocha": "2.1.0",
+        "superagent": "0.21.0"
+    }
+}
